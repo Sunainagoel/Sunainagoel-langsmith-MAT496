@@ -23,3 +23,9 @@ The key takeaway was that you can mix these tracing methods depending on how muc
 **Tweaking:** I added additional questions of my own to extend the conversation and included more inputs and responses, which allowed me to see how the thread evolved in LangSmith. I also attached screenshots that clearly show how all these exchanges are grouped together in the LangSmith interface.
 **Source code:** https://github.com/langchain-ai/intro-to-langsmith/blob/main/notebooks/module_1/conversational_threads.ipynb
 **My code:** https://github.com/Sunainagoel/Sunainagoel-langsmith-MAT496/blob/main/module%201/conversational_threads.ipynb
+
+### Module 2:
+**Video 1:** This video explained why datasets are so important when testing LLM applications — especially since these models often give different outputs for the same input. Datasets help us track if our changes actually improve results. In LangSmith, a dataset is just a list of examples (input + expected output). You can also tag datasets to version them or split them for separate testing.
+**Tweaking:** I created new traces and added them to the dataset using code and also explored how to manage and edit datasets directly on the LangSmith website. I also made a completely new dataset using code and populated it with examples.
+**Source code:** https://github.com/langchain-ai/intro-to-langsmith/blob/main/notebooks/module_2/dataset_upload.ipynb
+**My code:** https://github.com/Sunainagoel/Sunainagoel-langsmith-MAT496/blob/main/module2/dataset_upload.ipynb

@@ -15,13 +15,9 @@
 
 
 **Video 3:** This lesson introduced more flexible tracing options beyond the default @traceable decorator. I explored:
-
   with trace(): for more controlled, manual tracing.
-
   wrap_openai: which automatically tracks OpenAI calls.
-
   Built-in LangChain/LangGraph tracing: which captures internal components automatically.
-
 The key takeaway was that you can mix these tracing methods depending on how much control or automation you want. For instance, with trace() lets you trace only a portion of a function, while decorators wrap the whole thing.
 **Tweaking:** I designed a new RAG pipeline using Wikipedia data (Climate Change) and applied each tracing method to different parts of the process and added questions of my own.
 
@@ -62,3 +58,10 @@ The key takeaway was that you can mix these tracing methods depending on how muc
 **Tweaking:** Since no code was provided, I uploaded a Jupyter notebook where I added screenshots of my experiments and how I used the LangSmith interface to analyze the results.
 
 **My code:** https://github.com/Sunainagoel/Sunainagoel-langsmith-MAT496/blob/main/module2/analyzing_experiment_results.ipynb
+
+
+**Video 5:** Sometimes, evaluating model outputs individually doesn't give clear insights — this is where pairwise evaluations help. In this setup, two model outputs for the same input are compared side by side, and we decide which one is better. It's a more direct way to compare models.
+**Tweaking:** I included screenshot of the “good vs bad” comparison and added it to my notebook as a reference to understand how it works.
+
+**Source code:** https://github.com/langchain-ai/intro-to-langsmith/blob/main/notebooks/module_2/pairwise_experiments.ipynb
+**My code:** https://github.com/Sunainagoel/Sunainagoel-langsmith-MAT496/blob/main/module2/pairwise_experiments.ipynb

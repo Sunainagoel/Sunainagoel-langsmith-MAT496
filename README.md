@@ -18,3 +18,8 @@ The key takeaway was that you can mix these tracing methods depending on how muc
 **Tweaking:** I designed a new RAG pipeline using Wikipedia data (Climate Change) and applied each tracing method to different parts of the process and added questions of my own.
 **Source code:** https://github.com/langchain-ai/intro-to-langsmith/blob/main/notebooks/module_1/alternative_tracing_methods.ipynb 
 **My code:** https://github.com/Sunainagoel/Sunainagoel-langsmith-MAT496/blob/main/module%201/alternative_tracing_methods.ipynb
+
+**Video 4:** Here, I learned how to structure traces to reflect back-and-forth conversations — not just one-off LLM calls. Using a shared thread_id, we can group multiple traces as part of a single conversation. This is shown visually in the LangSmith “Thread View,” which looks and feels a lot like real chatbot transcripts.
+**Tweaking:** I added additional questions of my own to extend the conversation and included more inputs and responses, which allowed me to see how the thread evolved in LangSmith. I also attached screenshots that clearly show how all these exchanges are grouped together in the LangSmith interface.
+**Source code:** https://github.com/langchain-ai/intro-to-langsmith/blob/main/notebooks/module_1/conversational_threads.ipynb
+**My code:** https://github.com/Sunainagoel/Sunainagoel-langsmith-MAT496/blob/main/module%201/conversational_threads.ipynb

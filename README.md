@@ -65,3 +65,9 @@ The key takeaway was that you can mix these tracing methods depending on how muc
 
 **Source code:** https://github.com/langchain-ai/intro-to-langsmith/blob/main/notebooks/module_2/pairwise_experiments.ipynb
 **My code:** https://github.com/Sunainagoel/Sunainagoel-langsmith-MAT496/blob/main/module2/pairwise_experiments.ipynb
+
+
+**Video 6:** Some metrics — like precision, recall, and F1 score — can't be calculated on single examples. These are called summary evaluators. They evaluate the full experiment and give overall scores. This gives a more complete picture of how our model is doing.
+**Tweaking:** I uploaded a screenshot of the experiment results where the F1 score were already calculated by LangSmith.
+**Source code:** https://github.com/langchain-ai/intro-to-langsmith/blob/main/notebooks/module_2/summary_evaluators.ipynb
+**My code:** https://github.com/Sunainagoel/Sunainagoel-langsmith-MAT496/blob/main/module2/summary_evaluators.ipynb

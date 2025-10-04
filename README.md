@@ -29,3 +29,8 @@ The key takeaway was that you can mix these tracing methods depending on how muc
 **Tweaking:** I created new traces and added them to the dataset using code and also explored how to manage and edit datasets directly on the LangSmith website. I also made a completely new dataset using code and populated it with examples.
 **Source code:** https://github.com/langchain-ai/intro-to-langsmith/blob/main/notebooks/module_2/dataset_upload.ipynb
 **My code:** https://github.com/Sunainagoel/Sunainagoel-langsmith-MAT496/blob/main/module2/dataset_upload.ipynb
+
+**Video 2:** Evaluators are the tools used to score how well our model performed. They compare the model’s output with the expected output in a dataset and return a score (like accuracy, etc). We can either code our own evaluator or use an LLM to judge the quality of the output.
+**Tweaking:** I added some more examples to test how the evaluator’s score changes with better or worse outputs. Then I created my own evaluator using LLM-as-a-judge to score helpfulness from 1 to 5 — where 1 means unhelpful and 5 means very helpful and informative. I tested it with multiple examples.
+**Source code:** https://github.com/langchain-ai/intro-to-langsmith/blob/main/notebooks/module_2/evaluators.ipynb
+**My code:** https://github.com/Sunainagoel/Sunainagoel-langsmith-MAT496/blob/main/module2/evaluators.ipynb

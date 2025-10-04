@@ -4,3 +4,8 @@
 **Tweaking:** I added custom metadata, including dynamic values during execution. I modified the original code with my own questions and traced outputs to better understand what’s going on step by step.
 **Source code:** https://github.com/langchain-ai/intro-to-langsmith/blob/main/notebooks/module_1/tracing_basics.ipynb 
 **My code:** https://github.com/Sunainagoel/Sunainagoel-langsmith-MAT496/blob/main/module%201/tracing_basics.ipynb
+
+**Video 2:** This video went deeper into the idea that not all traces are the same. LangSmith lets you categorize each traced function by its role: llm, retriever, tool, chain, etc. This helps organize your trace logs and makes debugging much easier because each piece of the workflow is labeled clearly.
+**Tweaking:** I created a new tool function (currency_converter) and traced it as a tool type. I also adjusted how outputs are generated in the llm section to experiment with formatting.
+**Source code:** https://github.com/langchain-ai/intro-to-langsmith/blob/main/notebooks/module_1/types_of_runs.ipynb
+**My code:** https://github.com/Sunainagoel/Sunainagoel-langsmith-MAT496/blob/main/module%201/types_of_runs.ipynb

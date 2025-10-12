@@ -71,3 +71,7 @@ The key takeaway was that you can mix these tracing methods depending on how muc
 **Tweaking:** I uploaded a screenshot of the experiment results where the F1 score were already calculated by LangSmith.
 **Source code:** https://github.com/langchain-ai/intro-to-langsmith/blob/main/notebooks/module_2/summary_evaluators.ipynb
 **My code:** https://github.com/Sunainagoel/Sunainagoel-langsmith-MAT496/blob/main/module2/summary_evaluators.ipynb
+
+
+### Module 3:
+**Video 1:** LangSmith's Playground is a great place to develop prompt engineering. While prompts are typically merely hard-coded strings, working with prompt templates provides flexibility by allowing you to insert variables during runtime. Within the Playground, you can construct and test prompts, compare results, experiment with your data, and even include tools. It also allows you to load data and specify output schemas so you can keep results uniform and structured. All in all, it's a powerful sandbox for experimenting with LLMs.

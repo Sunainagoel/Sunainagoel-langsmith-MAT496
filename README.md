@@ -69,6 +69,7 @@ The key takeaway was that you can mix these tracing methods depending on how muc
 
 **Video 6:** Some metrics — like precision, recall, and F1 score — can't be calculated on single examples. These are called summary evaluators. They evaluate the full experiment and give overall scores. This gives a more complete picture of how our model is doing.
 **Tweaking:** I uploaded a screenshot of the experiment results where the F1 score were already calculated by LangSmith.
+
 **Source code:** https://github.com/langchain-ai/intro-to-langsmith/blob/main/notebooks/module_2/summary_evaluators.ipynb
 **My code:** https://github.com/Sunainagoel/Sunainagoel-langsmith-MAT496/blob/main/module2/summary_evaluators.ipynb
 
@@ -76,5 +77,9 @@ The key takeaway was that you can mix these tracing methods depending on how muc
 ### Module 3:
 **Video 1:** LangSmith's Playground is a great place to develop prompt engineering. While prompts are typically merely hard-coded strings, working with prompt templates provides flexibility by allowing you to insert variables during runtime. Within the Playground, you can construct and test prompts, compare results, experiment with your data, and even include tools. It also allows you to load data and specify output schemas so you can keep results uniform and structured. All in all, it's a powerful sandbox for experimenting with LLMs.
 **Tweaking:** Included screenshots to go through the main features of the LangSmith Playground. I tried new prompt templates with a given dataset and compared the responses of two LLMs — OpenAI and Groq — under the same prompts. I checked for accuracy by running repetitions and also developed my own database, running it with other prompt templates to watch variations in output.
+
 **Source code:** https://github.com/langchain-ai/intro-to-langsmith/blob/main/notebooks/module_3/playground_experiments.ipynb
 **My code:** https://github.com/Sunainagoel/Sunainagoel-langsmith-MAT496/blob/main/module3/playground_experiments.ipynb
+
+
+**Video 2:** In LangSmith, the Prompts Hub serves as a central place to design, save, and manage prompt templates. Once a prompt is created, you can commit changes, push new templates from your code, or pull templates (including specific versions) back into your project. Each prompt template includes variables that are filled in at runtime, model configurations, and an optional output schema to ensure the output follows a consistent format.

@@ -75,3 +75,6 @@ The key takeaway was that you can mix these tracing methods depending on how muc
 
 ### Module 3:
 **Video 1:** LangSmith's Playground is a great place to develop prompt engineering. While prompts are typically merely hard-coded strings, working with prompt templates provides flexibility by allowing you to insert variables during runtime. Within the Playground, you can construct and test prompts, compare results, experiment with your data, and even include tools. It also allows you to load data and specify output schemas so you can keep results uniform and structured. All in all, it's a powerful sandbox for experimenting with LLMs.
+**Tweaking:** Included screenshots to go through the main features of the LangSmith Playground. I tried new prompt templates with a given dataset and compared the responses of two LLMs — OpenAI and Groq — under the same prompts. I checked for accuracy by running repetitions and also developed my own database, running it with other prompt templates to watch variations in output.
+**Source code:** https://github.com/langchain-ai/intro-to-langsmith/blob/main/notebooks/module_3/playground_experiments.ipynb
+**My code:** https://github.com/Sunainagoel/Sunainagoel-langsmith-MAT496/blob/main/module3/playground_experiments.ipynb

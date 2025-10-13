@@ -100,3 +100,10 @@ The key takeaway was that you can mix these tracing methods depending on how muc
 **Source code:** https://github.com/langchain-ai/intro-to-langsmith/blob/main/notebooks/module_3/prompt_hub.ipynb
 **My code:** https://github.com/Sunainagoel/Sunainagoel-langsmith-MAT496/blob/main/module3/prompt_hub.ipynb
 
+
+**Video 3:** This video covered a full walkthrough of how to use the Playground and Prompts Hub to iteratively improve a prompt within an application. One key takeaway was that once a prompt is linked through LangSmith, any edits or new commits made directly in the interface are automatically reflected in the application — meaning there's no need to manually update the code each time. This makes the iteration process much more efficient and flexible.
+
+**Tweaking:** We ran multiple prompt variations to verify that the instructions were being followed correctly and the outputs were consistent and aligned with expectations.
+
+**Source code:** https://github.com/langchain-ai/intro-to-langsmith/blob/main/notebooks/module_3/prompt_engineering_lifecycle.ipynb
+**My code:** https://github.com/Sunainagoel/Sunainagoel-langsmith-MAT496/blob/main/module3/prompt_engineering_lifecycle.ipynb

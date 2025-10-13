@@ -107,3 +107,10 @@ The key takeaway was that you can mix these tracing methods depending on how muc
 
 **Source code:** https://github.com/langchain-ai/intro-to-langsmith/blob/main/notebooks/module_3/prompt_engineering_lifecycle.ipynb
 **My code:** https://github.com/Sunainagoel/Sunainagoel-langsmith-MAT496/blob/main/module3/prompt_engineering_lifecycle.ipynb
+
+
+**Video 4:** We can use LLMs to help write and improve prompts using the Prompt Canvas in the LangSmith Playground, which is accessed through the magic wand icon. This tool lets us create new prompts, refine existing ones, modify specific parts, and standardize prompts by setting parameters like reading level and length. These standardization features are part of Quick Actions, and there's also a Custom Action button that allows us to build our own tools. Overall, Prompt Canvas is especially useful for ensuring consistency and quality in prompts, making it a valuable tool for collaboration across teams or organizations.
+
+**Tweaking:** I ran several prompts through Prompt Canvas, made edits, created a custom action button for grammar correction, and documented the process in a Jupyter notebook with screenshots showing how I used the LangSmith interface to analyze the results.
+
+**My code:** https://github.com/Sunainagoel/Sunainagoel-langsmith-MAT496/blob/main/module3/prompt_canvas.ipynb
